@@ -1,0 +1,10 @@
+{
+  // Optional mirror on Cloudflare Workers (static assets only). The primary host is Vercel.
+  "$schema": "https://unpkg.com/wrangler@4/config-schema.json",
+  "name": "strongroom",
+  "compatibility_date": "2026-11-10",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
